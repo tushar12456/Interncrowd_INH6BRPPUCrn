@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">
+            Book-Shop
+            <img src="img/book.jpg" alt="">
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Best offer's</a>
+            <a href="#">Brands</a>
+            
+            <a href="#">Contact</a>
+        </div>
+        <div class="registers">
+            <a href="#"class="btnlogin-popup">Register</a>
+            <a href="#" class="btnlogin-popup">Logins</a>
+        </div>
+    </nav>
+    
+    <section class="school">
+
+        <img src="img/b6.jpg" alt="">
+
+    </section>
+    
+    <section class="loginpage" id="Home">
+        <div class="wrapper" >
+        
+            <span class="icon-close">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </span>
+                    <div class="from-box login">
+                        <h2>Login</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="mail"></ion-icon>
+                                    </span>
+                                <input type="email" required name="femail" id="email">
+                                <label>Email</label>
+                                <span id="email" class="text-danger font-weight-bold"></span>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                                <input type="password" required name="fpass" id="password">
+                                <label>password</label>
+                                <span id="email"></span>
+                            </div>
+                            <div class="remember-forgot">
+                                <label><input type="checkbox">Remember me</label>
+            <a href="#">Forgot password</a>
+            
+                            </div>
+                            <button type="submit" class="btn" onclick="validate()">Login</button>
+                        
+                                <div class="login-register">
+                                    <p>Don't hava an account? <a href="#" class="register-link">Register</a></p>
+                                </div>
+    
+                        </form>
+                    </div>
+                    <div class="from-box register" >
+                        <h2>Registration</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="person-circle-outline"></ion-icon>
+                                    </span>
+                                <input type="text" required>
+                                <label>Username</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="mail-outline"></ion-icon>
+                                    </span>
+                                <input type="email" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                                <input type="password" required id="password">
+                                <label>password</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label><input type="checkbox">I agree to terms & condition</label>
+            
+                            </div>
+                            <button type="submit" class="btn"  >Login</button>
+                        
+                                <div class="login-register">
+                                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                                </div>
+                            
+                        </form>
+                    </div>
+                </div>
+                <script src="script.js"></script>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+    </section>
+</header>
+</body>
+</html>
+</body>
+</html>
